@@ -45,8 +45,6 @@ const SavedBooks = () => {
     return <h2>LOADING...</h2>;
   }
 
-  const userDataLength = Object.keys(userData?.me).length;
-
   return (
     <>
       <div fluid className='text-light bg-dark p-5'>
